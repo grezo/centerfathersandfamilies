@@ -1,0 +1,18 @@
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.visuallyhidden {
+	position: absolute;
+	left: -9999px;
+}
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
